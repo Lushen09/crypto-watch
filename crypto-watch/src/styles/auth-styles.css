@@ -1,0 +1,65 @@
+/* 
+
+.auth-padding {
+    padding: 150px 0 150px;
+}
+
+.auth-form {
+    color: rgba(255, 245, 238, 0.836);
+    margin-inline: auto;
+    width: 70%;
+
+    h1 {
+        font-size: 3.5rem;
+        background: linear-gradient(to right, rgba(9, 121, 44, 1), rgb(179, 209, 190));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        padding: 0px 0px 30px 0px;
+    }
+
+    input {
+        background-color: rgb(15, 15, 15);
+        color: rgba(9, 121, 44, 1);
+    }
+
+} */
+
+.auth {
+    background-color: rgb(15, 15, 15);
+    padding: 100px 0px 100px;
+}
+
+.login-container,
+.signup-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #1d1919;
+    border-radius: 8px;
+    
+}
+
+.login-container h1,
+.signup-container h1 {
+    text-align: center;
+    background: linear-gradient(to right, rgba(9, 121, 44, 1), rgb(179, 209, 190));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 0px 0px 30px 0px;
+}
+
+.login-container form,
+.signup-container form {
+    margin-top: 20px;
+    color: rgba(255, 245, 238, 0.836);
+}
+
+.login-container .form-control,
+.signup-container .form-control {
+    background-color: #f3f3f3;
+}
+
+.login-container button,
+.signup-container button {
+    margin-top: 20px;
+}

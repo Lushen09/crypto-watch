@@ -1,0 +1,9 @@
+.details {
+    h2 {
+        color: rgb(212, 0, 255);
+    }
+}
+
+.details-padding {
+    padding: 100px 0 70px;
+}

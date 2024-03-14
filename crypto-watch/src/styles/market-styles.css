@@ -1,0 +1,91 @@
+.market {
+    background-color: rgb(15, 15, 15);
+}
+
+.market-heading {
+    font-size: 3.5rem;
+    background: linear-gradient(to right, rgba(9, 121, 44, 1), rgb(179, 209, 190));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 0px 0px 30px 0px;
+}
+
+.market-padding {
+    padding: 70px 0px 100px 0px;
+}
+
+.table-pagination {
+    padding: 30px 0px 30px 0px;
+}
+
+.table {
+    --bs-table-bg: none !important;
+
+}
+
+.table-heading-row {
+    background-color: rgb(20, 112, 28);
+}
+
+.table-text {
+    color: rgb(177, 176, 176) !important;
+
+}
+
+.table-rows {
+    td {
+        padding-top: 16px !important;
+    }
+}
+
+.table-rows:hover {
+    background-color: rgb(63, 63, 63);
+
+}
+
+.table-responsive {
+    border-radius: 10px;
+}
+
+.green-text {
+    color: rgb(52, 192, 75) !important;
+}
+
+.red-text {
+    color: rgb(179, 81, 81) !important;
+}
+
+.table-image {
+    height: 50px;
+    width: 50px;
+}
+
+@media (max-width: 992px) {
+    .market-heading {
+        font-size: 2.5rem;
+    }
+
+    .table-text, .green-text, .red-text  {
+        font-size: 0.9rem;
+    }
+}
+
+/* Animations */
+
+.animate-market {
+    animation-name: popin-animation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes popin-animation {
+    from {
+        margin-top: 200px;
+        opacity: 0;
+    }
+
+    to {
+        margin-top: 0px;
+        opacity: 1;
+    }
+}

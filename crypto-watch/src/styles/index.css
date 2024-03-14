@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i');
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+p, form, nav {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}

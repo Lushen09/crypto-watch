@@ -1,0 +1,85 @@
+.features {
+    background-color: rgb(15, 15, 15);
+}
+
+.features-box {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgb(31, 31, 31)), to(rgb(44, 44, 44)));
+    border: 1px solid rgba(155, 155, 155, 0.171);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 2, 0);
+    margin: 0px 0px 30px 0px;
+}
+
+.features-box h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0px 0px 10px 20px;
+}
+
+.features-box p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 20px 0px 10px 20px;
+}
+
+.features-content {
+    margin: 0px 0px 30px 0px;
+}
+
+.features-padding {
+    padding: 70px 0px 40px 0px;
+}
+
+.features-heading {
+    font-size: 3.5rem;
+    background: linear-gradient(to right, rgba(9, 121, 44, 1), rgb(179, 209, 190));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 0px 0px 30px 0px;
+}
+
+.icon-image {
+    margin: 20px 0px 10px 20px;
+    height: 10svh;
+}
+
+.sticky {
+    position: sticky;
+    top: 30%;
+}
+
+@media (max-width: 992px) {
+    .features-heading {
+        font-size: 2.5rem;
+    }
+
+    .features-content {
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
+    .features-padding {
+        padding: 120px 0px 40px 0px;
+    }
+}
+
+/* Animations */
+
+.animate-features {
+    animation-name: popin-animation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes popin-animation {
+    from {
+        margin-top: 200px;
+        opacity: 0;
+    }
+
+    to {
+        margin-top: 0px;
+        opacity: 1;
+    }
+}

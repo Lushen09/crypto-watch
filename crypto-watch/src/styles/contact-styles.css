@@ -1,0 +1,128 @@
+.contact {
+    background-color: rgb(15, 15, 15);
+
+    h2 {
+        font-size: 3.5rem;
+        background: linear-gradient(to right, rgba(9, 121, 44, 1), rgb(179, 209, 190));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        padding: 0px 0px 30px 0px;
+    }
+
+    p {
+        font-size: 1rem;
+        color: rgba(255, 245, 238, 0.836);
+    }
+}
+
+.contact-padding {
+    padding: 90px 0px 50px 0px;
+}
+
+.contact-options {
+    padding: 80px 0px 0px 0px;
+
+    h3 {
+        padding: 30px 0px 0px 0px;  
+    }
+}
+
+.email-section {
+    padding: 200px 0px 0px 0px;
+    color: rgba(255, 245, 238, 0.836);
+
+    h3 {
+        font-size: 2rem;
+        padding: 0px 0px 30px 0px;
+    }
+}
+
+.partner-section {
+    padding: 150px 0px 0px 0px;
+
+    h2 {
+        padding: 0px 0px 30px 0px;
+    }
+    
+    p {
+        padding: 0px 0px 50px 0px;
+    }
+}
+
+.contact-form {
+    color: rgba(255, 245, 238, 0.836);
+    margin-inline: auto;
+    width: 70%;
+
+    input {
+        background-color: rgb(15, 15, 15);
+        color: rgba(9, 121, 44, 1);
+    }
+}
+
+.form-check-input:checked {
+    background-color: rgba(9, 121, 44, 1) !important;
+    border-color: #05160b !important;
+}
+
+.form-check-input:focus {
+    box-shadow: none !important;
+}
+
+.form-control {
+    background-color: rgb(15, 15, 15) !important;
+    color: rgba(9, 121, 44, 1) !important;
+    border-color: rgb(68, 68, 68) !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: rgb(216, 216, 216) !important;
+}
+
+
+.form-select {
+    background-color: rgb(15, 15, 15) !important;
+    color: rgba(9, 121, 44, 1) !important;
+    border-color: rgb(68, 68, 68) !important;
+}
+
+.form-select:focus {
+    box-shadow: none !important;
+    border-color: rgb(216, 216, 216) !important;
+}
+
+@media (max-width: 992px){
+    .contact {
+        h2 {
+            font-size: 2.5rem;
+        }
+    }
+
+    .contact-content {
+        padding: 0px 0px 70px 0px;
+    }
+
+    .email-section {
+        padding: 100px 0px 0px 0px;
+    }
+}
+
+.animate-contact {
+    animation-name: popin-animation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes popin-animation {
+    from {
+        margin-top: 200px;
+        opacity: 0;
+    }
+
+    to {
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
