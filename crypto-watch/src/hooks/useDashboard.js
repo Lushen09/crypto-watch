@@ -10,7 +10,7 @@ export const useDashboard = () => {
         setFetchError(null);
 
         try {
-            const response = await fetch(`http://localhost:3005/api/coins/${id}`);
+            const response = await fetch(`https://crypto-watch-server.vercel.app/api/coins/${id}`);
             const data = await response.json();
             setSelectedCoins(data.tracker);
             
@@ -22,7 +22,7 @@ export const useDashboard = () => {
     // retrieve additional info about one selected coin
     const fetchCoinInfo = async (coinId) => {
         try {
-            const response = await fetch(`http://localhost:3005/api/coin/${coinId}`);
+            const response = await fetch(`https://crypto-watch-server.vercel.app/api/coin/${coinId}`);
             const data = await response.json();
             setCoinInfo(data.data);
         }

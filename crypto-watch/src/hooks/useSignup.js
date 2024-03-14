@@ -10,7 +10,7 @@ export const useSignup = () => {
         setIsLoading(true);
         setSignUpError(null);
 
-        const response = await fetch('http://localhost:3005/api/signup', {
+        const response = await fetch('https://crypto-watch-server.vercel.app/api/signup', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

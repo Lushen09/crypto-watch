@@ -14,7 +14,7 @@ const Market = () => {
   const { track, trackError, isLoading } = useTrack();
 
   const fetchData = () => {
-    fetch(`http://localhost:3005/api/coins?page=${currentPage}`)
+    fetch(`https://crypto-watch-server.vercel.app/api/coins?page=${currentPage}`)
       .then((response) => response.json())
       .then((data) => {
         setData(data.data);

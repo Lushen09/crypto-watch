@@ -8,7 +8,7 @@ export const useTrack = () => {
         setIsLoading(true);
         setTrackError(null);
 
-        const response = await fetch('http://localhost:3005/api/track', {
+        const response = await fetch('https://crypto-watch-server.vercel.app/api/track', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

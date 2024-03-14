@@ -12,7 +12,7 @@ const Details = ( {selection} ) => {
 
     useEffect(() => {
         const fetchData = async () => {
-            const response = await fetch(`http://localhost:3005/api/details/${selection}`);
+            const response = await fetch(`https://crypto-watch-server.vercel.app/api/details/${selection}`);
             const data = await response.json();
             console.log('details', data.data.name);
             setCoinName(data.data.name);

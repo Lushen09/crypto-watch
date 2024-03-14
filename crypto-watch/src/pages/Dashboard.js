@@ -56,7 +56,7 @@ const Dashboard = () => {
   // Untrack a coin
   const untrackCoin = async (coin, id) => {
     console.log('untrack', coin, id);
-    const response = await fetch(`http://localhost:3005/api/untrack/${coin}?id=${id}`, {
+    const response = await fetch(`https://crypto-watch-server.vercel.app/api/untrack/${coin}?id=${id}`, {
       method: 'DELETE',
     });
 
