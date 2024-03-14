@@ -2,7 +2,7 @@ An app that can be used to track various cryptocurrency data in real time. The a
 can navigate the app and view the current market of cryptocurrencies. In order to store and view additional data for each crypto currency you will need to sign up/log in to the app to
 access your dashboard. Once signed in you can add cryptocurrencies to your portfolio and view additional information as well as a 30 day trend line chart for each cryptocurrency. 
 
-Live demo: [https://lushen09.github.io/crypto-watch/](https://crypto-watch-sable.vercel.app/)
+Live demo: https://crypto-watch-sable.vercel.app/
 
 Built with:
 
