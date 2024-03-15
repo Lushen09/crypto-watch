@@ -6,6 +6,7 @@ Live demo: https://crypto-watch-sable.vercel.app/
 
 Demo Credentials:
 Email - Test123@gmail.com
+
 Password - Bitcoin10!
 
 Built with:
