@@ -26,7 +26,7 @@
 }
 
 .phone {
-    height: 45svh;
+    height: 80svh;
 }
 
 @media (max-width: 768px) {
@@ -41,7 +41,7 @@
     }
 
     .phone {
-        height: 70svh;
+        height: 45svh;
         padding: 40px 0px 0px 0px;
     }
 }
