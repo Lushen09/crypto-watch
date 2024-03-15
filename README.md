@@ -4,6 +4,10 @@ access your dashboard. Once signed in you can add cryptocurrencies to your portf
 
 Live demo: https://crypto-watch-sable.vercel.app/
 
+Demo Credentials:
+Email - Test123@gmail.com
+Password - Bitcoin10!
+
 Built with:
 
 🔵 React
